@@ -5,7 +5,7 @@ using System.Web;
 
 namespace multas.Models
 {
-    public class condutores
+    public class Condutores
     {
         // 
         public int ID { get; set; }
@@ -25,6 +25,6 @@ namespace multas.Models
         public DateTime DataValidadeCarta { get; set; }
 
         //lista das multas associadas ao condutor
-        public ICollection<multas> ListaMultas { get; set; }
+        public ICollection<Multas> ListaMultas { get; set; }
     }
 }

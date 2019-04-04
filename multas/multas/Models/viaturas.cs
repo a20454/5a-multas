@@ -5,7 +5,7 @@ using System.Web;
 
 namespace multas.Models
 {
-    public class viaturas
+    public class Viaturas
     {
         public int ID { get; set; }
 
@@ -24,6 +24,6 @@ namespace multas.Models
         public string CodPostalDono { get; set; }
 
         //lista das multas associadas a viatura
-        public ICollection<multas> ListaMultas { get; set; }
+        public ICollection<Multas> ListaMultas { get; set; }
     }
 }

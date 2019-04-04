@@ -14,10 +14,10 @@ namespace multas.Models
 
         // vamos colocar, aqui, as instruções relativas às tabelas do 'negócio'
         // descrever os nomes das tabelas na Base de Dados
-        public virtual DbSet<multas> Multas { get; set; } // tabela Multas
-        public virtual DbSet<condutores> Condutores { get; set; } // tabela Condutores
-        public virtual DbSet<agentes> Agentes { get; set; } // tabela Agentes
-        public virtual DbSet<viaturas> Viaturas { get; set; } // tabela Viaturas
+        public virtual DbSet<Multas> Multas { get; set; } // tabela Multas
+        public virtual DbSet<Condutores> Condutores { get; set; } // tabela Condutores
+        public virtual DbSet<Agentes> Agentes { get; set; } // tabela Agentes
+        public virtual DbSet<Viaturas> Viaturas { get; set; } // tabela Viaturas
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

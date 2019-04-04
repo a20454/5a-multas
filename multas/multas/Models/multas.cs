@@ -6,7 +6,7 @@ using System.Web;
 
 namespace multas.Models
 {
-    public class multas
+    public class Multas
     {
         //id, data, valor, infracao, fK viatura, fk agente,fk condutor
         public int ID { get; set; }
@@ -24,16 +24,16 @@ namespace multas.Models
         //FK para os agentes
         [ForeignKey("Agente")]
         public int AgenteFK { get; set; }
-        public agentes Agente{ get; set; }
+        public Agentes Agente{ get; set; }
 
         //FK para os condutores
         [ForeignKey("Condutor")]
-        public int CondutoresFK { get; set; }
-        public condutores Condutor { get; set; }
+        public int CondutorFK { get; set; }
+        public Condutores Condutor { get; set; }
 
         //FK para as viaturas
         [ForeignKey("Viatura")]
-        public int ViaturasFK { get; set; }
-        public viaturas Viatura { get; set; }
+        public int ViaturaFK { get; set; }
+        public Viaturas Viatura { get; set; }
     }
 }

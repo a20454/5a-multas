@@ -103,11 +103,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\agentes.cs" />
-    <Compile Include="Models\condutores.cs" />
-    <Compile Include="Models\multas.cs" />
+    <Compile Include="Models\Agentes.cs" />
+    <Compile Include="Models\Condutores.cs" />
+    <Compile Include="Models\Multas.cs" />
     <Compile Include="Models\MultasDb.cs" />
-    <Compile Include="Models\viaturas.cs" />
+    <Compile Include="Models\Viaturas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace multas.Models
 {
-    public class agentes
+    public class Agentes
     {
         //id, nome, esquadra, foto
         public int ID { get; set; }
@@ -17,6 +17,6 @@ namespace multas.Models
         public string Fotografia { get; set; }
 
         //identifica as multas passadas pelo agente
-        public ICollection<multas> ListaMultas { get; set; }
+        public ICollection<Multas> ListaMultas { get; set; }
     }
 }
